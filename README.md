@@ -15,8 +15,13 @@ This is a web-based task manager that enables you to monitor both pending and co
 docker-compose up --build
 ```
 ### List volumes 
-1. List volumes: 
+List volumes: 
 ```shell
 docker volume ls 
 ```
 
+### Shut down container
+Shut down container
+```shell
+docker-compose down
+```
