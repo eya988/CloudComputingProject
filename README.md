@@ -14,6 +14,15 @@ This is a web-based task manager that enables you to monitor both pending and co
 ```Shell
 docker-compose up --build
 ```
+Or you can also 
+2. Build the image 
+```Shell
+docker compose build 
+```
+3. Then create and start the container 
+```Shell
+docker compose up
+```
 ### List volumes 
 List volumes: 
 ```shell
